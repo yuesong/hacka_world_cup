@@ -9,7 +9,7 @@
     <script src="js/main.js"></script>
     <script type="text/javascript">
     var TEAMS_FILE    = "teams.json";
-    var GROUPS_FILE   = "group-test.json";
+    var GROUPS_FILE   = "group.json";
     var KNOCKOUT_FILE = "knockout-test.json";
     $(document).ready(function() {
         loadTeams(TEAMS_FILE);
@@ -20,12 +20,16 @@
 </head>
 
 <body>
-    <div class="main">
+    <div id="main" class="main">
         <div class="group-stage grid">
-            <div class="grid-1-2"><table id="group-a" class="group"></table></div>
-            <div class="grid-1-2"><table id="group-b" class="group"></table></div>
-            <div class="grid-1-2"><table id="group-c" class="group"></table></div>
-            <div class="grid-1-2"><table id="group-d" class="group"></table></div>
+            <div class="grid">
+                <div class="grid-1-2"><table id="group-a" class="group"></table></div>
+                <div class="grid-1-2"><table id="group-b" class="group"></table></div>
+            </div>
+            <div class="grid">
+                <div class="grid-1-2"><table id="group-c" class="group"></table></div>
+                <div class="grid-1-2"><table id="group-d" class="group"></table></div>
+            </div>
         </div>
         <div class="knockout-stage grid">
             <div class="grid-1-6 ko-container quarter-finals-container">

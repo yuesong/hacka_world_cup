@@ -3,6 +3,7 @@ html {
 }
 
 body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
 	height:100%;
@@ -12,18 +13,57 @@ div.main, div.group-stage, div.knockout-stage, div.ko-container {
 	height: 100%;
 }
 
+#main:after {
+	content : "";
+    display: block;
+    background: url("../images/fifa.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
 div.group-stage {
-	display: none;
+	/*display: none;*/
+}
+
+div.group-stage > div {
+	margin-top: 100px;
 }
 
 table.group {
-	width: 80%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	border-spacing: 0;
+  	border-collapse: collapse;
+}
+
+table.group caption {
+	font-size: 150%;
+	color: white;
+	background-color: black;
+}
+
+table.group td {
+	text-align: center;
+	width: 25px;
+}
+
+table.group td.team {
+	text-align: left;
+	width: 100px;
 }
 
 div.knockout-stage {
-	/*display: none;*/
+	display: none;
 	position: relative;
 }
 
