@@ -1,0 +1,13 @@
+{
+	"quarter-final-left-1":  { "A1": null, "C2": null, "notes": null },
+	"quarter-final-left-2":  { "B1": null, "D2": null, "notes": null },
+	"quarter-final-right-1": { "C1": null, "A2": null, "notes": null },
+	"quarter-final-right-2": { "D1": null, "B2": null, "notes": null },
+
+	"semi-final-left":  { "A1C2": null, "B1D2": null, "notes": null },
+	"semi-final-right": { "C1A2": null, "D1B2": null, "notes": null },
+
+	"third-place": { "LL": null, "RL": null, "notes": null },
+
+	"final": { "LW": null, "RW": null, "notes": null }
+}

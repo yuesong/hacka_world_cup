@@ -1,0 +1,13 @@
+{
+	"quarter-final-left-1":  { "USA": 4, "GER": 3, "notes": null },
+	"quarter-final-left-2":  { "ESP": 1, "NED": 0, "notes": "a.e.t." },
+	"quarter-final-right-1": { "POR": 0, "BRA": 2, "notes": null },
+	"quarter-final-right-2": { "ITA": 1, "ARG": 0, "notes": null },
+
+	"semi-final-left":  { "USA": 5, "ESP": 4, "notes": "PSO" },
+	"semi-final-right": { "BRA": 3, "ITA": 0, "notes": null },
+
+	"third-place": { "ESP": 2, "ITA": 1, "notes": null },
+
+	"final": { "USA": 1, "BRA": 0, "notes": null }
+}

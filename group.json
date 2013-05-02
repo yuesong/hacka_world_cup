@@ -1,0 +1,42 @@
+[
+	{
+		"id": "group-a",
+		"name": "Group A",
+		"teams": ["USA", "BRA", "MEX"],
+		"games": [
+			{ "USA": null, "BRA": null },
+			{ "BRA": null, "MEX": null },
+			{ "MEX": null, "USA": null }
+		]
+	},
+	{
+		"id": "group-b",
+		"name": "Group B",
+		"teams": ["ESP", "ARG", "RUS"],
+		"games": [
+			{ "ESP": null, "ARG": null },
+			{ "ARG": null, "RUS": null },
+			{ "RUS": null, "ESP": null }
+		]
+	},
+	{
+		"id": "group-c",
+		"name": "Group C",
+		"teams": ["GER", "FRA", "POR"],
+		"games": [
+			{ "GER": null, "FRA": null },
+			{ "FRA": null, "POR": null },
+			{ "POR": null, "GER": null }
+		]
+	},
+	{
+		"id": "group-d",
+		"name": "Group D",
+		"teams": ["ITA", "ENG", "NED"],
+		"games": [
+			{ "ITA": null, "ENG": null },
+			{ "ENG": null, "NED": null },
+			{ "NED": null, "ITA": null }
+		]
+	}
+]

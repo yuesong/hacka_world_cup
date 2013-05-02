@@ -1,0 +1,61 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+}
+
+div.main, div.group-stage, div.knockout-stage, div.ko-container {
+	height: 100%;
+}
+
+div.group-stage {
+	display: none;
+}
+
+table.group {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.knockout-stage {
+	/*display: none;*/
+	position: relative;
+}
+
+div.quarter-finals-container > div:nth-child(1) {
+	height: 100px;
+    margin-top: -50px;
+    position: absolute;
+    top: 33%;
+}
+
+div.quarter-finals-container > div:nth-child(2) {
+	height: 100px;
+    margin-top: -50px;
+    position: absolute;
+    top: 66%;
+}
+div.semi-finals-container > div {
+	height: 100px;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+}
+
+.usa { background: url("../images/usa.gif") no-repeat; height: 29px; padding-left: 50px; }
+.esp { background: url("../images/esp.gif") no-repeat; height: 29px; padding-left: 50px; }
+.ger { background: url("../images/ger.gif") no-repeat; height: 29px; padding-left: 50px; }
+.ita { background: url("../images/ita.gif") no-repeat; height: 29px; padding-left: 50px; }
+.bra { background: url("../images/bra.gif") no-repeat; height: 29px; padding-left: 50px; }
+.arg { background: url("../images/arg.gif") no-repeat; height: 29px; padding-left: 50px; }
+.fra { background: url("../images/fra.gif") no-repeat; height: 29px; padding-left: 50px; }
+.eng { background: url("../images/eng.gif") no-repeat; height: 29px; padding-left: 50px; }
+.mex { background: url("../images/mex.gif") no-repeat; height: 29px; padding-left: 50px; }
+.rus { background: url("../images/rus.gif") no-repeat; height: 29px; padding-left: 50px; }
+.por { background: url("../images/por.gif") no-repeat; height: 29px; padding-left: 50px; }
+.ned { background: url("../images/ned.gif") no-repeat; height: 29px; padding-left: 50px; }
