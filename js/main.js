@@ -83,8 +83,6 @@ function getGroupTableData(group) {
 function renderKnockoutTable(file) {
     $.getJSON(file, function(data) {
 		$.each(data, function(gameKey, gameData){
-			console.log(gameKey);
-			console.log(gameData);
 			renderKnockoutGame($("#" + gameKey), gameData);
 		})
     });
@@ -95,8 +93,8 @@ function renderKnockoutGame(elem, game) {
 	var teams = Object.keys(game);
 	var t1 = teams[0]; var t2 = teams[1];
 	var s1 = game[t1]; var s2 = game[t2];
-	var t1Elem = $('<div></div>').addClass(t1.toLowerCase() + " team").text(teamFor(t1).name);
-	var t2Elem = $('<div></div>').addClass(t2.toLowerCase() + " team").text(teamFor(t2).name);
+	var t1Elem = $('<div></div>').addClass(t1.toLowerCase() + " team").text(t1);
+	var t2Elem = $('<div></div>').addClass(t2.toLowerCase() + " team").text(t2);
 	var sElem  = $('<div></div>').addClass("score");
 	if (s1 == null || s2 == null) {
 		sElem.text('-')

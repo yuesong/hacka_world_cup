@@ -1,13 +1,13 @@
 {
-	"quarter-final-left-1":  { "A1": null, "C2": null, "notes": null },
-	"quarter-final-left-2":  { "B1": null, "D2": null, "notes": null },
-	"quarter-final-right-1": { "C1": null, "A2": null, "notes": null },
-	"quarter-final-right-2": { "D1": null, "B2": null, "notes": null },
+	"quarter-final-left-1":  { "MEX": 3, "POR": 2, "notes": null },
+	"quarter-final-left-2":  { "ESP": 2, "ENG": 1, "notes": null },
+	"quarter-final-right-1": { "FRA": 2, "USA": 3, "notes": null },
+	"quarter-final-right-2": { "NED": 3, "ARG": 5, "notes": "a.e.t." },
 
-	"semi-final-left":  { "A1C2": null, "B1D2": null, "notes": null },
-	"semi-final-right": { "C1A2": null, "D1B2": null, "notes": null },
+	"semi-final-left":  { "MEX": 0, "ESP": 2, "notes": null },
+	"semi-final-right": { "USA": 4, "ARG": 5, "notes": "a.e.t" },
 
-	"third-place": { "LL": null, "RL": null, "notes": null },
+	"third-place": { "MEX": 4, "USA": 5, "notes": "PSO 2-2 a.e.t" },
 
-	"final": { "LW": null, "RW": null, "notes": null }
+	"final": { "ESP": 3, "ARG": 6, "notes": null }
 }

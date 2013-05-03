@@ -1,14 +1,14 @@
 {
-	"USA": { "name": "USA",         "p1": "Yuesong Wang",    "p2": null },
-	"ESP": { "name": "Spain",       "p1": "Sam Maxwell",     "p2": null },
-	"GER": { "name": "Germany",     "p1": "Matt Abrams",     "p2": null },
-	"ITA": { "name": "Italy",       "p1": "Ted Pearson",     "p2": null },
-	"BRA": { "name": "Brazil",      "p1": "Troy Kim",        "p2": null },
-	"ARG": { "name": "Argentina",   "p1": "Chanel",          "p2": null },
-	"FRA": { "name": "France",      "p1": "Anderson Osagie", "p2": null },
-	"ENG": { "name": "England",     "p1": "Sandeep Ranade",  "p2": null },
-	"MEX": { "name": "Mexico",      "p1": "Ramsey McGrory",  "p2": "Ted Pearson" },
-	"RUS": { "name": "Russia",      "p1": "Steve Donnelly",  "p2": "Ian Barfield" },
-	"POR": { "name": "Portugal",    "p1": "Jeffrey Duong",   "p2": null },
-	"NED": { "name": "Netherlands", "p1": "Taylor Roberts",  "p2": null }
+	"USA": { "name": "USA",         "p1": "Yuesong Wang",       "p2": null },
+	"ESP": { "name": "Spain",       "p1": "Sam Maxwell",        "p2": null },
+	"GER": { "name": "Germany",     "p1": "Matt Abrams",        "p2": null },
+	"ITA": { "name": "Italy",       "p1": "Ted Pearson",        "p2": null },
+	"BRA": { "name": "Brazil",      "p1": "Troy Kim",           "p2": null },
+	"ARG": { "name": "Argentina",   "p1": "Chanel",             "p2": null },
+	"FRA": { "name": "France",      "p1": "Anderson Osagie",    "p2": null },
+	"ENG": { "name": "England",     "p1": "Sandeep Ranade",     "p2": null },
+	"MEX": { "name": "Mexico",      "p1": "Stephane Longchamp", "p2": null },
+	"RUS": { "name": "Russia",      "p1": "Steve Donnelly",     "p2": "Ian Barfield" },
+	"POR": { "name": "Portugal",    "p1": "Jeffrey Duong",      "p2": null },
+	"NED": { "name": "Netherlands", "p1": "Taylor Roberts",     "p2": null }
 }

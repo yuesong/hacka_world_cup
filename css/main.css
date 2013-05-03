@@ -4,6 +4,8 @@ html {
 
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 200%;
+	font-weight: bold;
 	margin: 0;
 	padding: 0;
 	height:100%;
@@ -21,7 +23,7 @@ div.main, div.group-stage, div.knockout-stage, div.ko-container {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.3;
+    opacity: 0.4;
     top: 0;
     left: 0;
     bottom: 0;
@@ -31,15 +33,15 @@ div.main, div.group-stage, div.knockout-stage, div.ko-container {
 }
 
 div.group-stage {
-	/*display: none;*/
+	display: none;
 }
 
 div.group-stage > div {
-	margin-top: 100px;
+	margin-top: 150px;
 }
 
 table.group {
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	border-spacing: 0;
@@ -52,18 +54,21 @@ table.group caption {
 	background-color: black;
 }
 
+table.group tr {
+
+}
+
 table.group td {
 	text-align: center;
-	width: 25px;
 }
 
 table.group td.team {
 	text-align: left;
-	width: 100px;
+	width: 150px;
 }
 
 div.knockout-stage {
-	display: none;
+	/*display: none;*/
 	position: relative;
 }
 
@@ -87,15 +92,42 @@ div.semi-finals-container > div {
     top: 50%;
 }
 
-.usa { background: url("../images/usa.gif") no-repeat; height: 29px; padding-left: 50px; }
-.esp { background: url("../images/esp.gif") no-repeat; height: 29px; padding-left: 50px; }
-.ger { background: url("../images/ger.gif") no-repeat; height: 29px; padding-left: 50px; }
-.ita { background: url("../images/ita.gif") no-repeat; height: 29px; padding-left: 50px; }
-.bra { background: url("../images/bra.gif") no-repeat; height: 29px; padding-left: 50px; }
-.arg { background: url("../images/arg.gif") no-repeat; height: 29px; padding-left: 50px; }
-.fra { background: url("../images/fra.gif") no-repeat; height: 29px; padding-left: 50px; }
-.eng { background: url("../images/eng.gif") no-repeat; height: 29px; padding-left: 50px; }
-.mex { background: url("../images/mex.gif") no-repeat; height: 29px; padding-left: 50px; }
-.rus { background: url("../images/rus.gif") no-repeat; height: 29px; padding-left: 50px; }
-.por { background: url("../images/por.gif") no-repeat; height: 29px; padding-left: 50px; }
-.ned { background: url("../images/ned.gif") no-repeat; height: 29px; padding-left: 50px; }
+div.finals-container > div {
+	/* ADJUST THIS NUMBER TO MAKE IT LOOK GOOD */
+	margin-left: 20px;
+}
+
+#final {
+	height: 40;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+}
+#final > div {
+	display: inline;
+	margin-right: 10px;
+}
+
+#third-place {
+	height: 40;
+    margin-top: -20px;
+    position: absolute;
+    top: 75%;
+}
+#third-place > div {
+	/*display: inline;*/
+	/*margin-right: 10px;*/
+}
+
+.usa { background: url("../images/usa.gif") no-repeat left center; padding-left: 50px; }
+.esp { background: url("../images/esp.gif") no-repeat left center; padding-left: 50px; }
+.ger { background: url("../images/ger.gif") no-repeat left center; padding-left: 50px; }
+.ita { background: url("../images/ita.gif") no-repeat left center; padding-left: 50px; }
+.bra { background: url("../images/bra.gif") no-repeat left center; padding-left: 50px; }
+.arg { background: url("../images/arg.gif") no-repeat left center; padding-left: 50px; }
+.fra { background: url("../images/fra.gif") no-repeat left center; padding-left: 50px; }
+.eng { background: url("../images/eng.gif") no-repeat left center; padding-left: 50px; }
+.mex { background: url("../images/mex.gif") no-repeat left center; padding-left: 50px; }
+.rus { background: url("../images/rus.gif") no-repeat left center; padding-left: 50px; }
+.por { background: url("../images/por.gif") no-repeat left center; padding-left: 50px; }
+.ned { background: url("../images/ned.gif") no-repeat left center; padding-left: 50px; }

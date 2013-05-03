@@ -4,9 +4,9 @@
 		"name": "Group A",
 		"teams": ["USA", "BRA", "MEX"],
 		"games": [
-			{ "USA": null, "BRA": null },
-			{ "BRA": null, "MEX": null },
-			{ "MEX": null, "USA": null }
+			{ "USA": 2, "BRA": 1 },
+			{ "BRA": 1, "MEX": 3 },
+			{ "MEX": 2, "USA": 2 }
 		]
 	},
 	{
@@ -14,9 +14,9 @@
 		"name": "Group B",
 		"teams": ["ESP", "ARG", "RUS"],
 		"games": [
-			{ "ESP": null, "ARG": null },
-			{ "ARG": null, "RUS": null },
-			{ "RUS": null, "ESP": null }
+			{ "ESP": 2, "ARG": 1 },
+			{ "ARG": 3, "RUS": 0 },
+			{ "RUS": 0, "ESP": 2 }
 		]
 	},
 	{
@@ -24,9 +24,9 @@
 		"name": "Group C",
 		"teams": ["GER", "FRA", "POR"],
 		"games": [
-			{ "GER": null, "FRA": null },
-			{ "FRA": null, "POR": null },
-			{ "POR": null, "GER": null }
+			{ "GER": 0, "FRA": 3 },
+			{ "FRA": 2, "POR": 0 },
+			{ "POR": 0, "GER": 0 }
 		]
 	},
 	{
@@ -34,9 +34,9 @@
 		"name": "Group D",
 		"teams": ["ITA", "ENG", "NED"],
 		"games": [
-			{ "ITA": null, "ENG": null },
-			{ "ENG": null, "NED": null },
-			{ "NED": null, "ITA": null }
+			{ "ITA": 1, "ENG": 1 },
+			{ "ENG": 0, "NED": 1 },
+			{ "NED": 3, "ITA": 0 }
 		]
 	}
 ]
